@@ -4,6 +4,8 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 
+import "./router/permission"; //权限控制
+
 Vue.config.productionTip = false;
 
 new Vue({
